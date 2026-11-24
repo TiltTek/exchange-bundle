@@ -4,6 +4,14 @@ All notable changes to `tilttek/exchange-bundle` will be documented in this file
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.1.1-alpha - 2026-11-24
+
+### Changed
+
+- The development requirements accept `phil/privacy-bundle` 0.2, its latest published minor version, and no earlier
+  one, so that the package installs on its own beside the published version of that bundle.
+- Requires the latest minor of each dependency: `doctrine/orm` 3.8, `doctrine/dbal` 4.6, `doctrine/doctrine-bundle` 3.4.
+
 ## 0.1.0-alpha - 2026-11-20
 
 ### Added
